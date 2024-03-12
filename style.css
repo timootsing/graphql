@@ -1,0 +1,114 @@
+html {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: #555;
+}
+
+#main {
+    padding: 2rem;
+}
+
+/** Inputs **/
+.input-field {
+    width: -webkit-fill-available;
+    border: 0px;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem;
+}
+
+.full-width-btn {
+    padding: 0.5rem;
+    width: 100%;
+    border: 0px;
+    border-radius: 0.25rem;
+    background: green;
+    color: white;
+}
+
+/** Login form **/
+
+#login-header {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+#login-form {
+    color: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    width: 15rem;
+    margin: 0 auto;
+    background-color: #333; 
+    border-radius: 0.5rem;
+}
+
+#error {
+    color: crimson;
+    margin-top: 10px;
+}
+
+.logout {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #d33115;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+}
+
+/** Charts **/
+#user-details {
+    background: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.chart-wrapper {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: #f6f6f6;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.pie {
+    height: 300px !important;
+    width: 300px !important;
+}
+
+.pie-chart-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.pie-chart-info div {
+    font-size: 24px;
+}
+
+.bar-chart-info {
+    font-size: 24px;
+}
+
+/** Reusables **/
+
+.flex-col {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
