@@ -25,7 +25,7 @@ const renderProjectsBarChart = (totals) => {
     const barCharCanvas = getChartCanvas('bar', totals.projectAndPoints.map(obj => obj.label), totals.projectAndPoints.map(obj => obj.expKb));
     const barChartInfo = document.createElement('div');
     barChartInfo.classList = "bar-chart-info";
-    barChartInfo.innerHTML = `<div>Total: ${totals.auditsDone} kB</div>`
+    barChartInfo.innerHTML = `<div>Total: ${bytesToKB(totals.xpTotal)} kB</div>`
 
     const barChartWrapper = document.createElement('div');
     barChartWrapper.classList = "chart-wrapper flex-col align-center";
